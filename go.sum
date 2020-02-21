@@ -1,0 +1,8 @@
+github.com/miekg/pkcs11 v1.0.3 h1:iMwmD7I5225wv84WxIG/bmxz9AXjWvTWIbM/TYHvWtw=
+github.com/miekg/pkcs11 v1.0.3/go.mod h1:XsNlhZGX73bx86s2hdc/FuaLm2CPZJemRLMA+WTFxgs=
+pault.ag/go/fasc v0.0.0-20190505145209-c337c3c0bbf0 h1:xBeffIh+JoHkwY5VYDe3A06TVXFEWlVSvsBPNSqHFmM=
+pault.ag/go/fasc v0.0.0-20190505145209-c337c3c0bbf0/go.mod h1:ZVD6UhO2Ww4DGiNTW0cgpFlE820wDl2aMcTlprz7V2E=
+pault.ag/go/othername v0.0.0-20190316144542-859caba4369b h1:mIaVWfAAW33WRl0j2jKq4SPgs/NSUMb/UmMKbuVv6vc=
+pault.ag/go/othername v0.0.0-20190316144542-859caba4369b/go.mod h1:u939XwodO0MGyc2Wsk3DUHLu64//oyyi9xFxId8hW48=
+pault.ag/go/piv v0.0.0-20190320181422-d9d61c70919c h1:m1IRvlrAOG0OYOIwY0HOoW/SjnfyRd1TVZKztAkgy34=
+pault.ag/go/piv v0.0.0-20190320181422-d9d61c70919c/go.mod h1:fYW2wqJxyUbboP9qWa5ugkzT3vUqPFr542FMw9lXHv0=
