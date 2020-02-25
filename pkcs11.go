@@ -29,9 +29,8 @@ import (
 	"math/big"
 	"strings"
 
-	"pault.ag/go/piv"
-
 	"github.com/miekg/pkcs11"
+	"pault.ag/go/piv"
 )
 
 // When signing things via PKCS11 directly, raw, we have to handle the hash
@@ -288,9 +287,9 @@ func (s Store) LoadCertificate() (*piv.Certificate, error) {
 	return piv.ParseCertificate(certAttribute.Value)
 }
 
-// Create a Go rsa.PublicKey from the PKCS#11 attribute array we've fetched from
-// the underlying store.
-func createPubkeyFromAttributes(attributes []*pkcs11.Attribute) (crypto.PublicKey, error) {
+// CreatePubkeyFromAttributes creates a Go rsa.PublicKey from the PKCS#11
+// attribute array we've fetched from the underlying store.
+func CreatePubkeyFromAttributes(attributes []*pkcs11.Attribute) (crypto.PublicKey, error) {
 	key := rsa.PublicKey{
 		N: big.NewInt(0),
 	}
